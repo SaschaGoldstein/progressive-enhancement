@@ -1,3 +1,23 @@
-title {
-    color: cornflowerblue
+body {
+    background-color: lightsalmon;
+}
+
+
+
+h1 {
+    color: cornflowerblue;
+    text-align: center;
+}
+
+h2 {
+    color: cornflowerblue;
+}
+
+h3 {
+    color: cornflowerblue;
+}
+
+ul {
+    list-style: square;
+    color: cornflowerblue;
 }
