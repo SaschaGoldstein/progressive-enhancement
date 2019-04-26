@@ -4,6 +4,8 @@ body {
 
 
 
+
+
 h1 {
     color: cornflowerblue;
     text-align: center;
@@ -20,4 +22,34 @@ h3 {
 ul {
     list-style: square;
     color: cornflowerblue;
+}
+
+blockquote {
+    color: cornflowerblue;
+}
+
+p {
+    color: cornflowerblue
+}
+
+hr.new1 {
+    border-top: 1px black
+}
+
+
+#a {
+    quotes: "«" "»";
+
+}
+
+table, th, td {
+    border: 1px solid black
+}
+
+h4 {
+    color: cornflowerblue
+}
+
+#b {
+    quotes: "«" "»";
 }
