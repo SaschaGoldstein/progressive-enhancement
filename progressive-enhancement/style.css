@@ -33,7 +33,7 @@ p {
 }
 
 hr.new1 {
-    border-top: 1px black
+    border-top: 1px dashed black
 }
 
 
@@ -52,4 +52,8 @@ h4 {
 
 #b {
     quotes: "«" "»";
+}
+
+hr.new2 {
+    border-top: 1px black
 }
