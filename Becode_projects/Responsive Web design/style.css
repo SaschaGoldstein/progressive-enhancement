@@ -5,34 +5,39 @@
     font-size: 14pt;
     background-color:red;
     }
-    .small {
+    /* .small {
         display: block;
     } 
     .medium, .large {
         display:none;
-    }
+    } */
 }
 @media only screen and (min-width:300px) and (max-width:768px) {
     body{
         font-size: 18pt;
         background-color: green;
     }
-    .medium {
-        display: block;
-    } 
-    .small, .large {
-        display:none;
+    .small {
+        width: 66%;
+        float: left;
     }
+    .medium {
+        width: 33%;
+        float: left;    } 
+    .large {
+width: 100%;
+float: left;    }
 }
     @media only screen and (min-width:768px) {
         body{
          font-size: 20pt;   
         background-color: blue;
+        column-count: 3;
         }
-    .large {
+    /* .large {
         display: block;
     } 
     .small, .medium {
         display:none;
     }
-    }
+    } */
