@@ -1,5 +1,8 @@
+
+
 @media only screen and (max-width:300px) {
     body{
+    font-size: 14pt;
     background-color:red;
     }
     .small {
@@ -11,7 +14,8 @@
 }
 @media only screen and (min-width:300px) and (max-width:768px) {
     body{
-    background-color: green;
+        font-size: 18pt;
+        background-color: green;
     }
     .medium {
         display: block;
@@ -22,7 +26,8 @@
 }
     @media only screen and (min-width:768px) {
         body{
-    background-color: blue;
+         font-size: 20pt;   
+        background-color: blue;
         }
     .large {
         display: block;
